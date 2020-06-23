@@ -1,0 +1,42 @@
+.footer {
+    overflow: hidden;
+}
+.footer-logo {
+    text-align: center;
+    padding-top: 66px;
+    padding-bottom: 45px;
+}
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 24px;
+    padding-bottom: 28px;
+    @media screen and(max-width: 1025px) {
+    }
+}
+.footer-nav div {
+    margin-right: 62px;
+    @media screen and (max-width: 585px) {
+        margin-right: 31px;
+    }
+    @media screen and (max-width: 400px) {
+        margin-right: 21px;
+    }
+}
+.footer-nav div:last-child {
+    margin-right: 0;
+}
+.footer-text {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Myriad-Pro-Regular';
+    text-transform: uppercase;
+    color: #b5b5b5;
+    padding-top: 38px;
+    padding-bottom: 47px;
+}
+.footer-text span {
+    color: black;
+}

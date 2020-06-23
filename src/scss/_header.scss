@@ -1,0 +1,127 @@
+@import '_fonts.scss';
+
+.container {
+    display: flex;
+    padding: 26px 230px 25px 230px;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 1025px) {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav ul {
+    display: flex;
+    @media screen and(max-width: 1025px) {
+        display: none;
+    }
+}
+.header-nav .search {
+    @media screen and(max-width: 1025px) {
+        display: none;
+    }
+}
+.header-nav ul a {
+    font-family: 'Myriad-Pro-Regular';
+    font-size: 14px;
+    color: #777777;
+    text-transform: uppercase;
+    margin-right: 44px;
+    position: relative;
+}
+
+.header-nav ul a:hover {
+    color: black;
+}
+.header-nav ul a:hover::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    background-color: black;
+    top: 50%;
+    left: -30px;
+}
+.mobile-menu {
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #777777;
+    right: 10%;
+    display: none;
+    @media screen and(max-width: 1025px) {
+        display: block;
+    }
+}
+.active-menu {
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #777777;
+    right: 10%;
+    display: none;
+    transform: rotate(50deg);
+    @media screen and(max-width: 1025px) {
+        display: block;
+    }
+}
+.active-menu::before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #777777;
+    position: absolute;
+    top: 0 !important;
+    transform: rotate(80deg) !important;
+}
+.active-menu::after {
+    display: none !important;
+}
+.mobile-menu::before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #777777;
+    position: absolute;
+    top: -15px;
+}
+.mobile-menu::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #777777;
+    position: absolute;
+    top: 15px;
+}
+.mobile-list {
+    display: none;
+}
+.mobile-list ul {
+    display: block;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    top: 72px;
+    left: 0;
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    @media screen and (min-width: 1025px) {
+        display: none;
+    }
+}
+.mobile-list ul li {
+    margin-top: 30px;
+    font-size: 24px;
+}
+.mobile-list ul li a {
+    font-size: 40px;
+    margin-right: 0;
+}
