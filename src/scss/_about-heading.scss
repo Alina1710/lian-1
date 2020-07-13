@@ -1,0 +1,24 @@
+@import '_fonts.scss';
+.heading {
+    background-image: url('../img/about-heading.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 70%;
+}
+.heading-title {
+    font-family: 'Myriad-Pro-Regular';
+    font-size: 48px;
+    color: #ffffff;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 0 34px 0 34px;
+    margin-bottom: 30px;
+}
+.heading-text {
+    padding: 113px 0 124px 0;
+}
+.heading-text p {
+    font-family: 'Myriad-Pro-Regular';
+    font-size: 18px;
+    text-transform: uppercase;
+}

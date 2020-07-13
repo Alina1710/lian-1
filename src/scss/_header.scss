@@ -5,7 +5,7 @@
     padding: 26px 230px 25px 230px;
     align-items: center;
     justify-content: space-between;
-    @media screen and (max-width: 1025px) {
+    @media screen and (max-width: 1230px) {
         padding-left: 10%;
         padding-right: 10%;
     }
@@ -28,7 +28,7 @@
     }
 }
 .header-nav ul a {
-    font-family: 'Myriad-Pro-Regular';
+    font-family: 'Roboto-Bold';
     font-size: 14px;
     color: #777777;
     text-transform: uppercase;
@@ -46,7 +46,7 @@
     height: 2px;
     background-color: black;
     top: 50%;
-    margin-top: -1px;
+    margin-top: -2px;
     left: -30px;
 }
 .mobile-menu {
@@ -125,4 +125,5 @@
 .mobile-list ul li a {
     font-size: 40px;
     margin-right: 0;
+    font-family: 'Roboto-Bold';
 }
