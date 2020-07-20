@@ -16,3 +16,7 @@ $('.mobile-menu').click(function() {
 $('.pin-close').click(function() {
     $('.map-pin-text').css('display', 'none')
 })
+
+$('.contact-map-img').click(function() {
+    $('.map-pin-text').css('display', 'block')
+})
