@@ -12,3 +12,7 @@ $('.mobile-menu').click(function() {
     $(this).toggleClass('active-menu')
     $('.mobile-list').slideToggle('fast')
 })
+
+$('.pin-close').click(function() {
+    $('.map-pin-text').css('display', 'none')
+})
