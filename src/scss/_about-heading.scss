@@ -14,6 +14,9 @@
     padding: 0 34px 0 34px;
     margin-bottom: 30px;
     text-align: center;
+    @media screen and(max-width: 320px) {
+        padding: 0 15px 0 15px;
+    }
 }
 .heading-text {
     padding: 113px 0 124px 0;
